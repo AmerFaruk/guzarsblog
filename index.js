@@ -1,14 +1,2 @@
-const express = require("express");
-const app = express();
-
-app.get("/",(req,res) => {
-    res.send({
-        hey: "guys",
-        welcome: "back",
-        to: "another",
-        video: ",",
-        please: "subscribe!"
-    });
-});
-
-app.listen(process.env.PORT || 6969);
+const port = process.env.PORT || 5000;
+app.listen(port, () => console.log('listening song on port 5000');
