@@ -38,6 +38,12 @@
     text-align: left;
     padding: 2% 1%;
 }
+.card-body {
+    height: 150px;
+}
+.card-btn{
+    
+}
 .carousel-control-next-icon{
     color: #6f42c1;
 }
