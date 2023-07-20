@@ -1,10 +1,43 @@
-//four sub navigation buttons
-var radioRecent=document.getElementById("recent-rb");
-var radioNews=document.getElementById("news-rb");
-var radioReviews=document.getElementById("reviews-rb");
-var radioWorks=document.getElementById("works-rb");
+
 //card container
-var containerCardsRow = document.getElementById("card-container");
+var containerCardsRow = document.getElementById("cardsRow");
 //cards
 var containerCards = document.getElementsByClassName("col-cards");
 
+var works = $("work");
+var recent= $("recent");
+var news= $("new");
+var reviews= $("review");
+
+
+
+const radioButtons = $('input[name="vbtn-radio"]');
+$(".control-section input").click(function(){
+    
+    for (const radioButton of radioButtons){
+        if(radioButton.checked){
+            var selectedCategory = 'label[for=' + radioButton.id + ']';
+            var label = document.querySelector(selectedCategory);
+            var text = label.id;
+
+            showSection("#"+text+"-Section");
+
+            console.log(text);
+            break;
+        }
+    }
+});
+
+
+
+
+function showSection(section){
+
+    
+
+}
+
+function hideSections(){
+    
+    
+}
