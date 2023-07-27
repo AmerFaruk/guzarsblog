@@ -1,2 +1,0 @@
-# guzarsblog
-My Blog - Website

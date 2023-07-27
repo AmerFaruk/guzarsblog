@@ -1,0 +1,60 @@
+body {
+  height: auto;
+}
+
+  @font-face {
+    font-family: "mason-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #sectionID{
+    background-color: #475a56;
+    
+  }
+ 
+
+  .section-header {
+    color:#2d221c;
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+  
+  .section-pharagraph {
+    font-size:1rem;
+  }
+  
+
+  
+
+  .read-more {
+    color:#a4977a;
+    text-decoration:none;
+  }
+  .read-more:hover {
+    color:  #475a56;
+    text-decoration:none;
+  }
+
+  .first-carousel-block {
+    left:3%;
+    right:50%;
+    bottom: 10%;
+    text-align:left;
+    font-family:mason-sans;
+  }
+  .second-carousel-block {
+    right:3%;
+    left:50%;
+    top: 10%;
+    text-align:left;
+  }
+  .third-carousel-block {
+    right:3%;
+    left:50%;
+    bottom: 10%;
+    text-align:left;
+  }
+
+
+  

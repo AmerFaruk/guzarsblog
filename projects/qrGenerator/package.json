@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.8",
+    "jquery": "^3.7.0",
+    "qr-image": "^3.2.0"
+  },
+  "type": "module",
+  "name": "my-website-blog",
+  "version": "1.0.0",
+  "description": "\"My blog modules\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GunduzGuzar",
+  "license": "ISC"
+}
